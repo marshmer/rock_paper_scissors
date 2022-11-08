@@ -5,3 +5,7 @@ function getComputerChoice(compSelection) {
     return compSelection;
 }
 console.log(getComputerChoice());
+
+//Get player selection
+let playerInput = prompt("Please enter your selection");
+console.log(playerInput);
